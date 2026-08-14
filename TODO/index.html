@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="maincontainer">
+        <section class="header">
+            <img src="Gemini_Generated_Image_74ms7n74ms7n74ms.png" alt="logo">
+            <h1>ToDo Tracker</h1>
+        </section>
+        <section class="taskinput">
+            <form id="tasking">
+                <input placeholder="Task name" name="task" id="task">
+                <button id="taskbtn" type="submit">Add Task</button>
+            </form>
+        </section>
+        <div class="body">
+        <section class="search">
+            <form>
+                <input placeholder="search" name="search" id="search">
+                <select name="filter" id="filter">
+                    <option>All</option>
+                    <option>Active</option>
+                    <option>Completed</option>
+                </select>
+            </form>
+            <button id="sorting" type="button">Sort</button>
+        </section>
+        <section class="statistics">
+            <div class="stat" id="total">
+                <span>Total</span>
+                <strong  id="total-count"></strong>
+            </div>
+            <div class="stat"  id="completed">
+                <span>Completed</span>
+                <strong  id="complete-count"></strong>
+            </div>
+            <div class="stat" id="Remain">
+                <span>Remaining</span>
+                <strong id="remaining-count"></strong>
+            </div>
+        </section>
+        <section class="tasklist">
+                <!-- <div class="task">
+                    <input type="checkbox" id="check">
+                    <span id="addingtask"></span>
+                    <div class="actions">
+                        <button type="button" class="edit"></button>
+                        <button type="button" class="delete"></button>
+                    </div>
+                </div> -->
+        </section>
+        </div>
+        <section class="footer">
+            <div>
+            <button type="button" id="clearcompleted">Clear Completed</button>
+            <button type="button" id="clearall">Clear All</button>
+            </div>
+            
+        </section>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
