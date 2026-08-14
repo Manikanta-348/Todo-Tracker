@@ -1,0 +1,1 @@
+I built this Todo Tracker project to practice JavaScript DOM manipulation and improve my frontend development skills. It allows users to manage daily tasks by adding, editing, completing, and deleting them while displaying live task statistics.
